@@ -14,6 +14,6 @@ wget https://raw.githubusercontent.com/ResolvServices/unbound/main/bloqueio.conf
 
 printf "\n\tBaixando arquivo de domínios locais\n"
 
-wget https://raw.githubusercontent.com/ResolvServices/unbound/main/dominios.conf -O /etc/unbound/unbound.conf.d/bloqueio.conf
+wget https://raw.githubusercontent.com/ResolvServices/unbound/main/dominios.conf -O /etc/unbound/unbound.conf.d/dominios.conf
 
 printf "\n\tInstalação finalizada\n\tFavor realizar os testes e modificações\n\n"
